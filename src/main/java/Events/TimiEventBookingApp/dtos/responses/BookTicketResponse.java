@@ -6,8 +6,8 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class RegisterOrganizerResponse {
-    @JsonProperty("organizer_id")
+public class BookTicketResponse {
+    @JsonProperty("ticket_id")
     private String id;
     private String message;
 }

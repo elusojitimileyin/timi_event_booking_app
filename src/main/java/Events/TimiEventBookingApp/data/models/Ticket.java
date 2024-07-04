@@ -13,11 +13,13 @@ import static jakarta.persistence.GenerationType.IDENTITY;
 @Table(name = "tickets")
 @Setter
 @Getter
+@Entity
 public class Ticket {
     @Id
     @GeneratedValue(strategy = IDENTITY)
 
     private Long id;
+    private String ticketNumber;
     @Enumerated(EnumType.STRING)
     private TicketCategory ticketCategory;
     @Enumerated(EnumType.STRING)

@@ -1,0 +1,5 @@
+-- truncate table organizers cascade;
+--
+-- insert into organizers(id,username,password,time_created)values
+-- (100,'john@email.com','password', '2024-07-03 13:43:29.568781'),
+-- (200,'joe@email.com','password', '2024-07-03 13:43:29.568781'),
